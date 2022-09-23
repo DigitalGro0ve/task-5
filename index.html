@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#sadstory">sad story</a></li>
+          <li><a href="#anotherperspective">another perspective</a></li>
+          <li><a href="#bands">bands</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <video id="sadstory" width="100%" autoplay muted loop>
+      <source type="video/mp4" src="/src/video/videoplayback.mp4" />
+    </video>
+    <section id="anotherperspective">
+      <h2>sometimes you need to look from another perspective</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VoXFI0Fb33o"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <br />
+    <br />
+    <section id="bands">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <label for="hardrock">Hard Rock</label>
+              <select name="hardrock" id="hardrock">
+                <option value="led zeppelin">Led Zeppelin</option>
+                <option value="acdc">AC/DC</option>
+                <option value="black sabath">Black Sabath</option>
+                <option value="queen">Queen</option>
+                <option value="gunNrose">GunsNRose</option>
+              </select>
+            </th>
+            <th>
+              <label for="progrock">Prog Rock</label>
+              <select name="progrock" id="progrock">
+                <option value="kingcrimson">King Crimson</option>
+                <option value="genesis">Genesis</option>
+                <option value="rush">Rush</option>
+                <option value="yes">Yes</option>
+                <option value="jethrotull">Jethro Tull</option>
+              </select>
+            </th>
+            <th>
+              <label for="punkrock">Punk Rock</label>
+              <select name="punkrock" id="punkrock">
+                <option value="theramones">TheRamones</option>
+                <option value="theclash">The Clash</option>
+                <option value="misfits">Misfits</option>
+                <option value="greenday">Green Day</option>
+                <option value="nofx">NOFX</option>
+              </select>
+            </th>
+            <th>
+              <label for="altrock">Alt Rock</label>
+              <select name="altrock" id="altrock">
+                <option value="radiohead">Radiohead</option>
+                <option value="nirvana">Nirvana</option>
+                <option value="thesmiths">The Smiths</option>
+                <option value="rem">R.E.M.</option>
+                <option value="redhotchilipeppers">
+                  Red Hot Chili Peppers
+                </option>
+              </select>
+            </th>
+            <th>
+              <label for="jazz">Jazz</label>
+              <select name="jazz" id="jazz">
+                <option value="louisarmstrong">Louis Armstrong</option>
+                <option value="franksinatra">Frank Sinatra</option>
+                <option value="natkingcole">Nat King Cole</option>
+                <option value="milesdavis">Miles DAvis</option>
+                <option value="johncoltrane">John Coltrane</option>
+              </select>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <label for="heavymetal">Heavy Metal</label>
+              <select name="heavymetal" id="heavymetal">
+                <option value="metallica">Metallica</option>
+                <option value="ironmaiden">Iron Maiden</option>
+                <option value="pantera">Pantera</option>
+                <option value="slayer">Slayer</option>
+                <option value="megadeath">Megadeath</option>
+              </select>
+            </th>
+            <th>
+              <label for="indierock">Indie Rock</label>
+              <select name="indirock" id="indirock">
+                <option value="arcticmonkeys">Arctic Monkeys</option>
+                <option value="thestrokes">The Strokes</option>
+                <option value="oasis">Oasis</option>
+                <option value="thekillers">The Killers</option>
+                <option value="pixies">Pixies</option>
+              </select>
+            </th>
+            <th>
+              <label for="hiphop">HipHop</label>
+              <select name="hiphop" id="hiphop">
+                <option value="eminem">Eminem</option>
+                <option value="nas">Nas</option>
+                <option value="lilwayne">LilWayne</option>
+                <option value="2pac">2pac</option>
+                <option value="andre3000">Andre3000</option>
+              </select>
+            </th>
+            <th>
+              <label for="pop">Pop</label>
+              <select name="pop" id="pop">
+                <option value="michaeljackson">Michael Jackson</option>
+                <option value="prince">Prince</option>
+                <option value="adele">Adele</option>
+                <option value="brunomars">Bruno Mars</option>
+                <option value="ladygaga">Lady Gaga</option>
+              </select>
+            </th>
+            <th>
+              <label for="classic">Classic</label>
+              <select name="classic" id="classic">
+                <option value="beethovene">Beethovene</option>
+                <option value="mozart">Mozart</option>
+                <option value="bachi">Bachi</option>
+                <option value="chaikovsky">Chaikovsky</option>
+                <option value="vivaldi">Vivaldi</option>
+              </select>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br />
+    <br />
+    <section>
+      <form id="contact">
+        <div>
+          <input type="text" name="name" placeholder="type your name" />
+        </div>
+        <div>
+          <input type="text" name="surname" placeholder="type your surname" />
+        </div>
+
+        <div>
+          <input type="date" name="date of birth" />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="number"
+            value="+995"
+            placeholder="type your phone number"
+          />
+        </div>
+        <div>
+          <input type="email" name="@gmail" placeholder="type your gmail" />
+        </div>
+        <div>
+          <button>submit</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <img
+        src="/src/img/307439508_576539064343143_1485785447626933493_n.jpg"
+        width="1400"
+        height="200"
+        alt="img for footer"
+      />
+    </footer>
+  </body>
+</html>
